@@ -29,8 +29,8 @@ const Hero = () => {
           </h2>
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-[65px] "
-            words="Transforming Concepts into Seamless User Experiences"
+            className="text-center text-[42px] md:text-5xl lg:text-[70px] "
+            words="Turning Ideas into Reality,   One Codeblock at a time."
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
