@@ -53,12 +53,13 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["MongoDB", "React/NextJS", "Typescript"];
-  const rightLists = ["NodeJS", "Express", "PostgreSQL"];
+  const rightLists = ["NodeJS", "MongoDB", "Express"];
 
   const [copied, setCopied] = useState(false);
 
   const defaultOptions = {
     loop: copied,
+
     autoplay: copied,
     animationData: animationData,
     rendererSettings: {
@@ -69,7 +70,12 @@ export const BentoGridItem = ({
   const handleCopy = () => {
     const text = "guptarishi094@gmail.com";
     navigator.clipboard.writeText(text);
+
     setCopied(true);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 6000);
   };
 
   return (
