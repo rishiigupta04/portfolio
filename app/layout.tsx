@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rishi's Portfolio",
   description: "A Modern and Minimalist Portfolio",
+  keywords: ["rishi gupta", "portfolio", "web developer", "react", "nextjs"],
 };
 
 export default function RootLayout({
