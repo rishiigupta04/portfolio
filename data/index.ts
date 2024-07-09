@@ -133,6 +133,20 @@ export const projects = [
     link: "https://rishiigupta04.github.io/sundown_clone/",
   },
   {
+    id: 8,
+    title: "OOCHI - A Frontend Website ",
+    des: "A Frontend Website made using React + Tailwind CSS with the help of Vite. Libraries used - Framer Motion and Locomotive for smooth scrolling and animations!",
+    img: "/p8.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/vite.svg",
+      "/vercel.jpg",
+      "/gsap.svg",
+    ],
+    link: "https://oochi.vercel.app/",
+  },
+  {
     id: 7,
     title: "Very Own Portfolio Website ",
     des: "A portfolio website I made for my personal usecase with Next.js, Tailwind, and Typescript. Fully responsive and is powered by the powerful library - Aceternity UI. Learned to incorporate Sentry for error tracking and user feedback.",
