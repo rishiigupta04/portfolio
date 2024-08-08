@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 9,
     title: "Trimrr - URL Shortener",
-    des: "A FUlly responsive Full Stack URL Shortener Web-App with React JS, Tailwind CSS, Supabase, and Shadcn UI.",
+    des: "A Fully responsive Full Stack URL Shortener Web-App with React JS, Tailwind CSS, Supabase, and Shadcn UI. User authentication, URL shortening and redirection with custom links, detailed analytics, QR code generation, and a visually appealing dashboard.",
     img: "/p9.png",
     iconLists: [
       "/re.svg",
@@ -82,7 +82,7 @@ export const projects = [
       "vite.svg",
       "vercel.jpg",
     ],
-    link: "https://rishi-portfolio-website.vercel.app/",
+    link: "https://trimrrr.vercel.app/",
   },
   {
     id: 1,
