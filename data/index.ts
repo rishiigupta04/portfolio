@@ -71,6 +71,20 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 9,
+    title: "Trimrr - URL Shortener",
+    des: "A FUlly responsive Full Stack URL Shortener Web-App with React JS, Tailwind CSS, Supabase, and Shadcn UI.",
+    img: "/p9.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/supabase-logo.jpg",
+      "vite.svg",
+      "vercel.jpg",
+    ],
+    link: "https://rishi-portfolio-website.vercel.app/",
+  },
+  {
     id: 1,
     title: "GIPHY - Enter the World of GIFs",
     des: "Inspired by GIPHY having features such as live GIF fetching to display trending and latest GIFs, and Includes real-time search functionality for users to find specific GIFs quickly while also allows users to add GIFs to favorites.",
