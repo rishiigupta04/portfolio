@@ -71,6 +71,20 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 10,
+    title: "Retro King - Play Classic Retro Games",
+    des: "Missing the golden age of gaming? I've built a full-stack modern web platform that lets you relive those classic moments right in your browser! This is a web-based retro game emulation platform built with Next.js + Prisma.",
+    img: "/p10.jpeg",
+    iconLists: [
+      "/next.svg",
+      "/prisma.svg",
+      "/postgresql.svg",
+      "/tail.svg",
+      "/vercel.jpg",
+    ],
+    link: "https://retro-king.vercel.app/",
+  },
+  {
     id: 9,
     title: "Trimrr - URL Shortener",
     des: "A Fully responsive Full Stack URL Shortener Web-App with React JS, Tailwind CSS, Supabase, and Shadcn UI. User authentication, URL shortening and redirection with custom links, detailed analytics, QR code generation, and a visually appealing dashboard.",
@@ -84,6 +98,7 @@ export const projects = [
     ],
     link: "https://trimrrr.vercel.app/",
   },
+
   {
     id: 1,
     title: "GIPHY - Enter the World of GIFs",
@@ -107,20 +122,20 @@ export const projects = [
     ],
     link: "https://idea-go.vercel.app/",
   },
-  {
-    id: 3,
-    title: "A React Chat App",
-    des: "A full-stack real-time chat application equipped with a diverse range of features such as user login authentication, real-time messaging, and seen feature. Users can also send images and block/unblock other users. ",
-    img: "/p3.png",
-    iconLists: [
-      "/re.svg",
-      "firebase.svg",
-      "/css.svg",
-      "/vite.svg",
-      "/vercel.jpg",
-    ],
-    link: "https://my-react-chat-app-0.vercel.app/",
-  },
+  // {
+  //   id: 3,
+  //   title: "A React Chat App",
+  //   des: "A full-stack real-time chat application equipped with a diverse range of features such as user login authentication, real-time messaging, and seen feature. Users can also send images and block/unblock other users. ",
+  //   img: "/p3.png",
+  //   iconLists: [
+  //     "/re.svg",
+  //     "firebase.svg",
+  //     "/css.svg",
+  //     "/vite.svg",
+  //     "/vercel.jpg",
+  //   ],
+  //   link: "https://my-react-chat-app-0.vercel.app/",
+  // },
 
   {
     id: 5,
