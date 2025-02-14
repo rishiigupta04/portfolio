@@ -26,9 +26,9 @@ const Footer = () => {
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm font-light md:font-normal">
+        {/* <p className="md:text-base text-sm font-light md:font-normal">
           Copyright © 2024 Rishiraj Gupta
-        </p>
+        </p> */}
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
             <a
