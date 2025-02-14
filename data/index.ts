@@ -175,21 +175,21 @@ export const projects = [
     ],
     link: "https://oochi.vercel.app/",
   },
-  {
-    id: 7,
-    title: "Very Own Portfolio Website ",
-    des: "A portfolio website I made for my personal usecase with Next.js, Tailwind, and Typescript. Fully responsive and is powered by the powerful library - Aceternity UI. Learned to incorporate Sentry for error tracking and user feedback.",
-    img: "/p7.png",
-    iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/sentry.svg",
-      "vite.svg",
-      "vercel.jpg",
-    ],
-    link: "https://rishi-portfolio-website.vercel.app/",
-  },
+  // {
+  //   id: 7,
+  //   title: "Very Own Portfolio Website ",
+  //   des: "A portfolio website I made for my personal usecase with Next.js, Tailwind, and Typescript. Fully responsive and is powered by the powerful library - Aceternity UI. Learned to incorporate Sentry for error tracking and user feedback.",
+  //   img: "/p7.png",
+  //   iconLists: [
+  //     "/next.svg",
+  //     "/tail.svg",
+  //     "/ts.svg",
+  //     "/sentry.svg",
+  //     "vite.svg",
+  //     "vercel.jpg",
+  //   ],
+  //   link: "https://rishi-portfolio-website.vercel.app/",
+  // },
 ];
 
 export const testimonials = [
