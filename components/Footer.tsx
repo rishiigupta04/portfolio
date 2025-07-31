@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <footer className="w-full mb-[50px] md:mb-[5px] pb-10" id="contact">
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take your digital presence to{" "}
-          <span className="text-purple">the next level?</span>
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can improve your
-          goals.
-        </p>
+      <h1 className="heading lg:max-w-[45vw]">
+  Ready to unlock <span className="text-purple">value </span>  from your <span className="text-purple">data?</span>
+</h1>
+<p className="text-white-200 md:mt-10 my-5 text-center">
+  Reach out and let’s discuss how I can help you turn complex data into insights and build solutions that drive real impact.
+</p>
+
+
 
         <a title="Get in touch" href="mailto:grishi349@gmail.com">
           <MagicButton

@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-28">
+    <div className="pb-20 pt-12">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -29,12 +29,12 @@ const Hero = () => {
           </h2> */}
 
           <TextGenerateEffect
-            className="text-center text-[42px] md:text-5xl lg:text-[70px] "
-            words="Turning Ideas into Reality,   One Codeblock at a time."
+            className="text-center text-[40px] md:text-5xl lg:text-[70px] "
+            words="Transforming Data into Decisions, and Code into Creations."
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
-            Hi, I&apos;m Rishi, A Developer based in Mumbai.
+            Hi, I’m Rishi — data-driven, web-ready. Based in Mumbai.
           </p>
 
           <a title="Show my work" href="#projects">

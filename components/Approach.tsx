@@ -12,11 +12,11 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Problem Understanding"
           icon={<AceternityIcon order="Phase 1" />}
-          desc="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          desc="We begin by clearly defining the business problem, setting objectives, 
+          and identifying the key metrics that will guide the entire data science process. 
+          Understanding stakeholder expectations is critical at this stage."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,11 +24,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development and Progress Update"
+          title="Data Exploration & Modeling"
           icon={<AceternityIcon order="Phase 2" />}
-          desc="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          desc="From cleaning and exploring raw data to feature engineering and model selection, 
+          this phase focuses on uncovering patterns and building predictive models. 
+          Regular updates are shared to align progress with business goals."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,15 +39,14 @@ const Approach = () => {
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Insights"
           icon={<AceternityIcon order="Phase 3" />}
-          desc="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          desc="Once the model is validated, it's deployed into a real-world environment. 
+          I build dashboards or integrate the model into web apps to ensure insights 
+          are accessible, actionable, and impactful for decision-makers."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -59,6 +58,7 @@ const Approach = () => {
     </section>
   );
 };
+
 
 const Card = ({
   title,

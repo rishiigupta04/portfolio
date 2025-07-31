@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "my Tech-Stack",
+    title: "my Tool Stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "An Aspiring Data Scientist and a Machine Learning Enthusiast",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Fullstack Modern Code Editor and Compiler",
+    title: "Currently deepening my skills in Machine Learning, with an emphasis on model development, evaluation, and practical deployment.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -70,6 +70,43 @@ export const gridItems = [
 ];
 
 export const projects = [
+   {
+    id: 1,
+    title: "End-to-End Hospital Analysis Dashboard",
+    des: "A comprehensive Dashboard designed to provide clear, actionable insights across five key areas: Overview, Patient, Doctor, Hospital, and Finance. This dashboard brings hospital data to life for better decision-making.",
+    img: "/BI_1.png",
+    iconLists: ["/powerBI.png", "sql.svg"],
+    link: "https://t.ly/oMmYp",
+  },
+  {
+    id: 2,
+    title: "Fully Interactive Mobile Sales Dashboard ",
+    des: "Built in Power BI to transform complex sales data into clear, actionable insights. It covers sales performance, top brands/models, regional demand, seasonal trends, payment behavior, inventory flow, and customer feedback.",
+    img: "/BI_2.png",
+    iconLists: ["/powerBI.png", "sql.svg"
+    ],
+    link: "https://t.ly/fK5Mp",
+  },
+     {
+    id: 5,
+    title: "🫀 Heart Disease Risk Predictor - ML",
+    des: "A Machine learning web app built using Streamlit that predicts the risk of heart disease based on a user's health metrics. This project combines data preprocessing, model training, and deployment in one end-to-end solution.",
+    img: "/ML_1.png",
+    iconLists: ["/python.svg"],
+    link: "https://github.com/rishiigupta04/heart_health_prediction",
+  },
+   
+  {
+    id: 3,
+    title: "Sales Analysis Dashboard - MS Excel",
+    des: "Sales Dashboard using Excel tools like Power Query, PivotTables, Slicers, and Charts. It highlights category-wise sales, customer growth, profit trends, top-performing states, and monthly sales fluctuations, all at a glance.",
+    img: "/excel1.png",
+    iconLists: [
+      "excel.svg"
+    ],
+    link: "https://t.ly/I_D0g",
+  },
+
   {
     id: 10,
     title: "Retro King - Play Classic Retro Games",
@@ -99,52 +136,9 @@ export const projects = [
     link: "https://trimrrr.vercel.app/",
   },
 
-  {
-    id: 1,
-    title: "GIPHY - Enter the World of GIFs",
-    des: "Inspired by GIPHY having features such as live GIF fetching to display trending and latest GIFs, and Includes real-time search functionality for users to find specific GIFs quickly while also allows users to add GIFs to favorites.",
-    img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "vite.svg", "vercel.jpg"],
-    link: "https://giphy-rishi.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "IdeaGo - WebApp ",
-    des: "IdeaGo serves as a versatile platform where users can both share their imaginative concepts and explore a curated collection of top and innovative ideas with an upvoting system facilitated by anonymous users to rank ideas.",
-    img: "/p2.png",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "postgresql.svg",
-      "drizzle.png",
-      "vite.svg",
-      "vercel.jpg",
-    ],
-    link: "https://idea-go.vercel.app/",
-  },
-  // {
-  //   id: 3,
-  //   title: "A React Chat App",
-  //   des: "A full-stack real-time chat application equipped with a diverse range of features such as user login authentication, real-time messaging, and seen feature. Users can also send images and block/unblock other users. ",
-  //   img: "/p3.png",
-  //   iconLists: [
-  //     "/re.svg",
-  //     "firebase.svg",
-  //     "/css.svg",
-  //     "/vite.svg",
-  //     "/vercel.jpg",
-  //   ],
-  //   link: "https://my-react-chat-app-0.vercel.app/",
-  // },
 
-  {
-    id: 5,
-    title: "CookMom - Find Any Recipe ",
-    des: "Showcases a diverse range of food recipes based on user interests. Clicking on a recipe redirects users to relevant YouTube search results for that recipe. Users can like recipes and easily find them in the favorites section.",
-    img: "/p5.png",
-    iconLists: ["/re.svg", "/tail.svg", "/vite.svg", "/vercel.jpg"],
-    link: "https://cookmom.vercel.app/",
-  },
+
+ 
   {
     id: 4,
     title: "DuoStudio – A Frontend Website ",
@@ -293,7 +287,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/rishi-raj-gupta45/",
+    link: "https://www.linkedin.com/in/rishirajgupta04/",
   },
   {
     id: 1,
