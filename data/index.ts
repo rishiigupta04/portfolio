@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client satisfaction and client collaboration. ",
+    title: "Specializing in Generative AI, agentic systems, and end-to-end ML solutions. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Building Machine Learning Solutions",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "An Aspiring Data Scientist and a Machine Learning Enthusiast",
+    title: "Data Scientist with a Strong Interest in Machine Learning and Generative AI",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently deepening my skills in Machine Learning, with an emphasis on model development, evaluation, and practical deployment.",
+    title: "Actively building skills in Generative AI and agentic AI systems, specializing in LLM reasoning, tool-calling workflows, retrieval-augmented generation, and production deployment.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -70,6 +70,38 @@ export const gridItems = [
 ];
 
 export const projects = [
+
+
+         {
+    id: 11,
+    title: "ChatterboxGPT : built with LangGraph",
+    des: " A Multi-Utility Chatbot with Retrieval-Augmented Generation (RAG), and LLMs,supporting context-aware document Q&A and dynamic external tool calling (web search, APIs, utilities) for real-time, grounded responses.",
+    img: "/p11.png",
+    iconLists: ["/python.svg","langchain.jpg"],
+    link: "https://chatterboxgpt.streamlit.app/",
+  },
+
+     {
+    id: 13,
+    title: "JobJumperAI : Job Application Assistant",
+    des: "AI-powered career management platform that helps you stay on track and updated with job application and interview process with AI agents that analyze job fit, conduct real-time web research on companies, and generate tailored cover letters.",
+    img: "/p12.png",
+    iconLists: ["/re.svg",
+      "/tail.svg",
+      "/supabase-logo.jpg",
+      "vite.svg",
+      "vercel.jpg",],
+    link: "https://jobjumperai.vercel.app/",
+  },
+
+         {
+    id: 5,
+    title: "🫀 Heart Disease Risk Predictor - ML",
+    des: "A Machine learning web app built using Streamlit that predicts the risk of heart disease based on a user's health metrics. This project combines data preprocessing, model training, and deployment in one end-to-end solution.",
+    img: "/ML_1.png",
+    iconLists: ["/python.svg"],
+    link: "https://github.com/rishiigupta04/heart_health_prediction",
+  },
    {
     id: 1,
     title: "End-to-End Hospital Analysis Dashboard",
@@ -87,14 +119,7 @@ export const projects = [
     ],
     link: "https://t.ly/fK5Mp",
   },
-     {
-    id: 5,
-    title: "🫀 Heart Disease Risk Predictor - ML",
-    des: "A Machine learning web app built using Streamlit that predicts the risk of heart disease based on a user's health metrics. This project combines data preprocessing, model training, and deployment in one end-to-end solution.",
-    img: "/ML_1.png",
-    iconLists: ["/python.svg"],
-    link: "https://github.com/rishiigupta04/heart_health_prediction",
-  },
+
    
   {
     id: 3,
@@ -147,14 +172,7 @@ export const projects = [
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "/three.svg", "/gsap.svg"],
     link: "https://rishiigupta04.github.io/duostudio/",
   },
-  {
-    id: 6,
-    title: "SunDown - A Frontend Website ",
-    des: "Cloned the Frontend of the original website incorporating libraries such as GSAP and LocomotiveJS for smooth scrolling animations and SwiperJS for image slider, for seamless user experience.",
-    img: "/p6.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/gsap.svg"],
-    link: "https://rishiigupta04.github.io/sundown_clone/",
-  },
+
   {
     id: 8,
     title: "OOCHI - A Frontend Website ",
