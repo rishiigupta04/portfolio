@@ -93,15 +93,23 @@ export const projects = [
       "vercel.jpg",],
     link: "https://jobjumperai.vercel.app/",
   },
-
-         {
+             {
     id: 5,
-    title: "🫀 Heart Disease Risk Predictor - ML",
-    des: "A Machine learning web app built using Streamlit that predicts the risk of heart disease based on a user's health metrics. This project combines data preprocessing, model training, and deployment in one end-to-end solution.",
-    img: "/ML_1.png",
+    title: "YouTube RAG Chatbot using HuggingFace",
+    des: "Unlock the knowledge in any YouTube video with this RAG chatbot. Powered by advanced LLMs and semantic search, Users ask questions about a video; the chatbot finds answers and cites relevant moments with precise timestamps.",
+    img: "/p16.png",
     iconLists: ["/python.svg"],
-    link: "https://github.com/rishiigupta04/heart_health_prediction",
+    link: "https://github.com/rishiigupta04/Youtube-RAG-Chatbot",
   },
+
+  //        {
+  //   id: 5,
+  //   title: "🫀 Heart Disease Risk Predictor - ML",
+  //   des: "A Machine learning web app built using Streamlit that predicts the risk of heart disease based on a user's health metrics. This project combines data preprocessing, model training, and deployment in one end-to-end solution.",
+  //   img: "/ML_1.png",
+  //   iconLists: ["/python.svg"],
+  //   link: "https://github.com/rishiigupta04/heart_health_prediction",
+  // },
    {
     id: 1,
     title: "End-to-End Hospital Analysis Dashboard",
@@ -130,6 +138,20 @@ export const projects = [
       "excel.svg"
     ],
     link: "https://t.ly/I_D0g",
+  },
+      {
+    id: 15,
+    title: "Healthio - Doctor Appointment Booking App",
+    des: "A Full Stack Doctor Appointment Booking and Management Web-App built with MERN Stack. Features a dedicated admin panel, user authentication, doctor search and booking, appointment management, reviews, and a dashboard.",
+    img: "/p15.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/postgresql.svg",
+      "vite.svg",
+      "vercel.jpg",
+    ],
+    link: "https://healthioo.vercel.app/",
   },
 
   {
@@ -160,6 +182,7 @@ export const projects = [
     ],
     link: "https://trimrrr.vercel.app/",
   },
+
 
 
 
