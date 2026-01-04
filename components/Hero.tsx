@@ -29,13 +29,16 @@ const Hero = () => {
           </h2> */}
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-[70px] "
+            className="text-center text-[40px] md:text-5xl lg:text-[60px] "
             words="Transforming Data into Decisions, and Code into Creations."
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
-            Hi, I’m Rishi — data-driven, web-ready. Based in Mumbai.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl mt-6 opacity-75 ">
+              Hi, I’m Rishi!
+
+
           </p>
+             <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-xl mb-6 opacity-65 ">I'm a Data Scientist exploring and building with<br/> Machine Learning, Generative AI and Agentic AI</p>
 
           <a title="Show my work" href="#projects">
             <MagicButton

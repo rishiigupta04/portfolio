@@ -12,11 +12,11 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Problem Understanding"
+          title="System Design & Problem Definition"
           icon={<AceternityIcon order="Phase 1" />}
-          desc="We begin by clearly defining the business problem, setting objectives, 
-          and identifying the key metrics that will guide the entire data science process. 
-          Understanding stakeholder expectations is critical at this stage."
+          desc="I start by deeply understanding the problem context, defining clear objectives,
+          and identifying success metrics. This phase focuses on aligning data science goals
+          with real business or product impact."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ const Approach = () => {
         <Card
           title="Data Exploration & Modeling"
           icon={<AceternityIcon order="Phase 2" />}
-          desc="From cleaning and exploring raw data to feature engineering and model selection, 
-          this phase focuses on uncovering patterns and building predictive models. 
-          Regular updates are shared to align progress with business goals."
+          desc="This phase covers data exploration, pre-processing and engineering, model development, and experimentation with
+  machine learning, LLMs, and agentic workflows. I focus on performance, reliability,
+  and selecting architectures that scale in real-world environments."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,10 +42,12 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Deployment & Insights"
+          title="Deployment, APIs & Monitoring"
           icon={<AceternityIcon order="Phase 3" />}
-          desc="Once the model is validated, it's deployed into a real-world environment. 
-          I build dashboards or integrate the model into web apps to ensure insights 
+          desc="Once validated, models are deployed as APIs or embedded into applications.
+  I focus on inference efficiency, monitoring, and observability to ensure
+  stable performance and long-term maintainability.
+          I also build dashboards to ensure insights
           are accessible, actionable, and impactful for decision-makers."
         >
           <CanvasRevealEffect

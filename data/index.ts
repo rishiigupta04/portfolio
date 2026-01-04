@@ -81,10 +81,19 @@ export const projects = [
     link: "https://chatterboxgpt.streamlit.app/",
   },
 
+            {
+    id: 15,
+    title: "Churn Prediction using Deep Learning 📉",
+    des: "Bank Customer Churn Prediction using the trained Artificial Neural Network model, with support of single and batch mode predictions (using CSV) and SHAP Explainability for model interpretability.",
+    img: "/p17.png",
+    iconLists: ["/python.svg"],
+    link: "https://churnprediction67.streamlit.app/",
+  },
+
      {
     id: 13,
     title: "JobJumperAI : Job Application Assistant",
-    des: "AI-powered career management platform that helps you stay on track and updated with job application and interview process with AI agents that analyze job fit, conduct real-time web research on companies, and generate tailored cover letters.",
+    des: "AI-powered career management platform that helps you stay updated with job applications with AI agents that analyze job fit, conduct real-time web research on companies, and generate tailored cover letters.",
     img: "/p12.png",
     iconLists: ["/re.svg",
       "/tail.svg",
@@ -95,8 +104,8 @@ export const projects = [
   },
              {
     id: 5,
-    title: "YouTube RAG Chatbot using HuggingFace",
-    des: "Unlock the knowledge in any YouTube video with this RAG chatbot. Powered by advanced LLMs and semantic search, Users ask questions about a video; the chatbot finds answers and cites relevant moments with precise timestamps.",
+    title: "YouTube RAG Chatbot using LangChain",
+    des: "Unlock the knowledge in any YouTube video with this RAG chatbot. Powered by LLMs and semantic search, Users ask questions about a video; the chatbot finds answers and cites relevant moments with precise timestamps.",
     img: "/p16.png",
     iconLists: ["/python.svg"],
     link: "https://github.com/rishiigupta04/Youtube-RAG-Chatbot",
@@ -335,9 +344,9 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/rishiigupta04",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: "https://x.com/rishiigupta04?t=UgmSdTUvplYuCE9MtelQDg&s=09",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   link: "https://x.com/rishiigupta04?t=UgmSdTUvplYuCE9MtelQDg&s=09",
+  // },
 ];

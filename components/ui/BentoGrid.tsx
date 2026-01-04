@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Python", "Python", "PowerBI"];
-  const rightLists = ["Langchain/LangGraph", "Excel + SQL"];
+  const leftLists = ["SQL", "Python + Pytorch", "PowerBI + Excel"];
+  const rightLists = ["Langchain + LangGraph", "Github + Docker"];
 
   const [copied, setCopied] = useState(false);
 
@@ -68,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "guptarishi094@gmail.com";
+    const text = "grishi349@gmail.com";
     navigator.clipboard.writeText(text);
 
     setCopied(true);
