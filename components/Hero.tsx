@@ -38,11 +38,11 @@ const Hero = () => {
 
 
           </p>
-<<<<<<< HEAD
+
              <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-xl mb-6 opacity-65 ">I`&apos;`m a Data Scientist exploring and building with<br/> Machine Learning, Generative AI and Agentic AI</p>
-=======
+
              <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-xl mb-6 opacity-65 ">I&apos;m a Data Scientist exploring and building with<br/> Machine Learning, Generative AI and Agentic AI</p>
->>>>>>> 37589be3bf80f4f992cd82c8bda8f19c455f7642
+
 
           <a title="Show my work" href="#projects">
             <MagicButton
