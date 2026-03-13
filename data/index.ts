@@ -72,28 +72,28 @@ export const gridItems = [
 export const projects = [
 
 
-         {
-    id: 11,
-    title: "ChatterboxGPT : built with LangGraph",
-    des: " A Multi-Utility Chatbot with Retrieval-Augmented Generation (RAG), and LLMs,supporting context-aware document Q&A and dynamic external tool calling (web search, APIs, utilities) for real-time, grounded responses.",
-    img: "/p11.png",
-    iconLists: ["/python.svg","langchain.jpg"],
-    link: "https://chatterboxgpt.streamlit.app/",
-  },
+
 
             {
     id: 15,
-    title: "Churn Prediction using Deep Learning 📉",
-    des: "Bank Customer Churn Prediction using the trained Artificial Neural Network model, with support of single and batch mode predictions (using CSV) and SHAP Explainability for model interpretability.",
-    img: "/p17.png",
-    iconLists: ["/python.svg"],
-    link: "https://churnprediction67.streamlit.app/",
+    title: "Expose.AI - Phishing and Fraud Detection",
+    des: "A multi-modal AI system to detect phishing websites and brand impersonation using ML, computer vision, and local LLM analysis. The system combines a LightGBM phishing classifier, LLM reasoning via Ollama, and visual similarity detection.",
+    img: "/p18.png",
+    iconLists: ["/python.svg","/re.svg" ],
+    link: "https://youtu.be/fPXwLn6FBj4?t=180",
   },
-
-     {
+         {
+    id: 5,
+    title: "E2E Data Engineering Project on Azure Databricks",
+    des: "Built a pipeline that processes batch and real-time streaming restaurant data using Apache Spark, Delta Lake, and Medallion Architecture, including customer reviews ingestion with LLM sentiment analysis and dashboards for business insights.",
+    img: "/p19.png",
+    iconLists: ["/databricks.png", "/azure.png" ,"/spark.png" ],
+    link: "https://github.com/rishiigupta04/databricks-e2e-project",
+  },
+   {
     id: 13,
-    title: "JobJumperAI : Job Application Assistant",
-    des: "AI-powered career management platform that helps you stay updated with job applications with AI agents that analyze job fit, conduct real-time web research on companies, and generate tailored cover letters.",
+    title: "JobJumper - AI Job Application Assistant",
+    des: "Streamlines the job application process by analyzing job descriptions, identifying resume gaps, generating tailored application materials, and assisting with interview preparation. Built using LLMs and RAG for personalized insights.",
     img: "/p12.png",
     iconLists: ["/re.svg",
       "/tail.svg",
@@ -101,7 +101,22 @@ export const projects = [
       "vite.svg",
       "vercel.jpg",],
     link: "https://jobjumperai.vercel.app/",
+  },   {
+    id: 1,
+    title: "End-to-End Hospital Analysis Dashboard",
+    des: "A comprehensive Dashboard designed to provide clear, actionable insights across five key areas: Overview, Patient, Doctor, Hospital, and Finance. This dashboard brings hospital data to life for better decision-making.",
+    img: "/BI_1.png",
+    iconLists: ["/powerBI.png", "sql.svg"],
+    link: "https://t.ly/oMmYp",
+  },             {
+    id: 11,
+    title: "ChatterboxGPT - built with LangGraph",
+    des: " A Multi-Utility Chatbot with Retrieval-Augmented Generation (RAG), and LLMs,supporting context-aware document Q&A and dynamic external tool calling (web search, APIs, utilities) for real-time grounded responses without hallucinations.",
+    img: "/p11.png",
+    iconLists: ["/python.svg","langchain.jpg"],
+    link: "https://chatterboxgpt.streamlit.app/",
   },
+
              {
     id: 5,
     title: "YouTube RAG Chatbot using LangChain",
@@ -111,22 +126,8 @@ export const projects = [
     link: "https://github.com/rishiigupta04/Youtube-RAG-Chatbot",
   },
 
-  //        {
-  //   id: 5,
-  //   title: "🫀 Heart Disease Risk Predictor - ML",
-  //   des: "A Machine learning web app built using Streamlit that predicts the risk of heart disease based on a user's health metrics. This project combines data preprocessing, model training, and deployment in one end-to-end solution.",
-  //   img: "/ML_1.png",
-  //   iconLists: ["/python.svg"],
-  //   link: "https://github.com/rishiigupta04/heart_health_prediction",
-  // },
-   {
-    id: 1,
-    title: "End-to-End Hospital Analysis Dashboard",
-    des: "A comprehensive Dashboard designed to provide clear, actionable insights across five key areas: Overview, Patient, Doctor, Hospital, and Finance. This dashboard brings hospital data to life for better decision-making.",
-    img: "/BI_1.png",
-    iconLists: ["/powerBI.png", "sql.svg"],
-    link: "https://t.ly/oMmYp",
-  },
+
+
   {
     id: 2,
     title: "Fully Interactive Mobile Sales Dashboard ",
