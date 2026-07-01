@@ -73,7 +73,22 @@ export const projects = [
 
 
 
-
+             {
+    id: 16,
+    title: "YouTube Comments Sentiment Analysis Plugin",
+    des: "Fine-tuned RoBERTa transformer on 1M+ YouTube comments, deployed with FastAPI and Hugging Face, and integrated into a Chrome Extension for real-time sentiment analysis.",
+    img: "/commentsense.png",
+    iconLists: ["/python.svg","/hf.svg" ],
+    link: "https://youtu.be/Md9ETL8xWzk",
+  },
+         {
+    id: 17,
+    title: "Multi-Agent BI Assistant using LangGraph",
+    des: "Analytica AI is a multi-agent business intelligence assistant that combines dedicated RAG, memory, data analytics, web research, visualization, and self reflective agents to transform business questions into actionable insights.",
+    img: "/architecture.png",
+    iconLists: ["/python.svg","/langchain.jpg" ],
+    link: "https://github.com/rishiigupta04/Analytica-AI",
+  },
             {
     id: 15,
     title: "Expose.AI - Phishing and Fraud Detection",
